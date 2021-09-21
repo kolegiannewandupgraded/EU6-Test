@@ -28,6 +28,7 @@ public class newTab {
         myList.add(12); myList.add(54); myList.add(45);
         ArrayList<Integer> newList= myList.stream().map(item -> item*8).collect(Collectors.toCollection(ArrayList::new));
         System.out.println(newList);
+        String isyan="How the hell can I open a new tab.";
         //driver.get("http://www.yahoo.com/");
         //Thread.sleep(4000L);
         //driver.close();
